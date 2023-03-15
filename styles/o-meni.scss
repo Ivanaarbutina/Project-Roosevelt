@@ -1,0 +1,51 @@
+@font-face{
+  font-family:Kalam;
+  src: url(/fonts/Kalam-Regular.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: Kalam; 
+}
+.header{
+  background-image: linear-gradient(to right, rgb(41, 40, 40) , rgb(243, 229, 225));
+  height: 40px;
+  &__link{
+    font-size: 26px;
+    margin-top: 8px;
+    margin-left: 8px;
+    color: white;
+  }
+}
+
+.hero{
+  background-image: url(/images/sky-diving.jpg);
+  background-size: cover;
+  background-position: center;
+   
+  &__title{
+    font-size: 44px;
+    margin-left: 285px;
+    margin-top: 0;
+    padding-top: 45px;
+    color:rgb(71, 70, 70) ;  
+  }
+  &__image{
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 80%;
+    border: 6px outset; 
+  }
+  &__text{
+    font-size: 30px;
+    width: 40%;
+    color: rgb(71, 70, 70);
+    margin:0px 700px 30px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+  }
+}
+
+
+
+
